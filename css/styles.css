@@ -364,6 +364,7 @@ color:  var(--pressed-state-color);
     color: var(--light-backgrounds-color);
     transform: translateY(100%);
     transition:  transform 250ms;
+    overflow: auto;
 }
 .portf-item:hover .portfolio-description{
     transform: translateY(0);
